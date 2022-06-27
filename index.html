@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/netflixicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="netflix.css">
+    <title>Netflix</title>
+</head>
+<body>
+    <div class="transparent">
+        <div class="logo">
+            <a href="#"><img src="images/logo-netflix-512.png" alt="Logo Netflix"></a>
+        </div>
+        <div class="card-login" id="cardlogin">
+            <div class="content-card">
+                <div class="title-card">
+                    <h1>Entrar</h1>
+                </div>
+                <div class="form-login">
+                    <form action="">
+                        <input type="text" name="email" id="email" placeholder="Email ou número de telefone" required>
+                        <input type="password" name="pass" id="pass" placeholder="Senha" required maxlength="12">
+                        <button>Entrar</button>
+                        <div class="checkbox-div">
+                        <input type="checkbox" name="check" id="check" checked>
+                        <label for="check">Lembre-se de mim</label>
+                        <a href="https://www.netflix.com/br/LoginHelp">Precisa de ajuda?</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="second-content">
+                    <p class="first">Novo por aqui? <a href="https://www.netflix.com/">Assine agora</a></p>
+                    
+                    <p class="second">Esta página é protegida pelo Google reCAPTCHA para
+                        garantir que você não é um robô. <a id="saibamais" onclick="veja()">Saiba mais.</a>
+                    </p>
+                    
+                    <p id="seemore">As informações recolhidas pelo Google reCAPTCHA
+                        estão sujeitas à <a href="https://policies.google.com/privacy">Política de Privacidade</a>
+                        e <a href="https://policies.google.com/terms">Termos de Uso</a>, e são usadas para
+                        oferecer, manter e melhorar o serviço reCAPTCHA e 
+                        por questões de segurança (não são usadas para exibir
+                        anúncios personalizados pelo Google).
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="intern-content">
+                <div class="titulo-footer">
+                    <p>Dúvidas? Ligue 0800 591 8942</p>
+                </div>
+                <div class="footer-menu">
+                    <div class="first-footer-menu">
+                        <a href="https://help.netflix.com/pt/node/412">Perguntas frequentes</a>
+                        <a href="https://www.netflix.com/br/login#">Preferências de cookies</a>
+                        <select name="language" id="language">
+                            <option value="portuguese">Português</option>
+                            <option value="english">Inglês</option>
+                        </select>
+                    </div>
+                    <div class="second-footer-menu">
+                        <a href="https://help.netflix.com/pt/">Centro de ajuda</a>
+                        <a href="https://help.netflix.com/legal/corpinfo">informações corporativas</a>
+                    </div>
+                    <div class="third-footer-menu">
+                        <a href="https://help.netflix.com/legal/termsofuse">Termos de uso</a>
+                    </div>
+                    <div class="forth-footer-menu">
+                        <a href="https://help.netflix.com/legal/privacy">Privacidade</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="SaibaMais.js"></script>
+</body>
+</html>

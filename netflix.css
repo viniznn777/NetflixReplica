@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/background-netflix.jpg);
+}
+
+.transparent {
+    width: 100%;
+    height: 100%;
+    background-color: #0000008c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2%;
+}
+
+.logo img {
+    width: 166;
+    height: 190px;
+    margin-top: 7.5px;
+}
+
+.card-login {
+    background-color: #000000BF;
+    width: 450px;
+    height: 660px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.title-card {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 61px;
+    margin-bottom: 32px;
+}
+
+.checkbox-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #b3b3b3;
+    font-family: 'Roboto';
+    font-size: 14px;
+}
+
+.checkbox-div > label {
+    width: 180px;
+    margin-left: 5px;
+    color: #949494;
+}
+
+.checkbox-div a {
+    color: #949494;
+    text-decoration: none;
+}
+
+.checkbox-div a:hover {
+    text-decoration: underline;
+}
+
+.content-card {
+    width: 314px;
+}
+
+.form-login form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+form > input {
+    padding: 17px 20px ;
+    background-color: #333333;
+    color: white;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: -5px;
+}
+
+#email {
+    margin-bottom: 9px;
+}
+
+input::placeholder {
+    font-size: 16px;
+    color: #8c8c8c;
+}
+
+form > button {
+    padding: 13px 20px;
+    border-radius: 6px;
+    background-color: #e50914;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 22px;
+}
+
+.second-content {
+    margin-top: 88px;
+}
+
+.second-content p.first {
+    color: #949494;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.second-content p.first > a {
+    color: white;
+    font-size: 16px;
+    font-family: 'Helvetica';
+}
+
+.second-content a {
+    text-decoration: none;
+}
+
+.second-content p.second {
+    font-size: 13px;
+    color: #8c8c8c;
+    font-family: 'Helvetica';
+    margin: 13px 0;
+}
+
+.second-content p.second a {
+    color: #0071eb;
+    cursor: pointer;
+}
+
+.second-content a:hover {
+    text-decoration: underline;
+}
+
+#seemore {
+    color: #8c8c8c;
+    font-size: 13px;
+    display: none;
+    font-family: 'Helvetica';
+}
+
+#seemore > a {
+    color: #0071eb;
+}
+
+.footer {
+    width: 100%;
+    height: 241px;
+    background-color: #000000BF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intern-content {
+    width: 75%;
+    height: 80%;
+    padding: 30px 0;
+}
+
+.titulo-footer {
+    color: #757575;
+    font-size: 16px;
+    font-family: 'Helvetica';
+    margin-top: -29px;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: #757575;
+    font-family: 'Helvetica';
+    font-size: 13px;
+}
+
+.footer-menu a:hover {
+    text-decoration: underline;
+}
+
+.first-footer-menu {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 260px;
+    gap: 13px;
+}
+
+.second-footer-menu {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 260px;
+    gap: 13px;
+}
+
+.third-footer-menu {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 240px;
+    
+}
+
+.forth-footer-menu {
+    margin-bottom: 30px;
+}
+
+#language {
+    margin-top: 20px;
+    width: 140px;
+    height: 45px;
+    background-color: black;
+    color: #757575;
+    text-align: center;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar {
+    background-color: rgba(0, 0, 0, 0.699)
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(190, 22, 22);
+    border-radius: 50px;
+}
